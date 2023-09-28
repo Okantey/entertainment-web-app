@@ -15,4 +15,5 @@ const globalColors: Record<string, string> = {
 export const HeaderText = styled.h1`
   font-size: 2rem;
   color: ${globalColors.primary};
+  box-sizing: border-box;
 `;
